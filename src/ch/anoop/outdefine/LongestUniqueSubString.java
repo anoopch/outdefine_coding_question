@@ -4,9 +4,9 @@ public class LongestUniqueSubString {
 
     public static int findLengethOfLongestSubstring(String expression) {
 
+        int result = 1;
         int right = 0;
         int left = 0;
-        int result = 1;
         char tempChar;
 
         int length = expression.length();
